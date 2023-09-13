@@ -1,0 +1,59 @@
+.counter {
+    text-align: center;
+    color: rgb(0, 221, 255);
+}
+
+.counter__header {
+    font-size: 8rem;
+    margin: 1rem 3.5rem;
+}
+
+.counter__body {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(41, 41, 41);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.count {
+    font-size: 6rem;
+}
+
+button {
+    padding: 5px 1rem;
+    font-size: 6rem;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    transition: ease-out 200ms;
+    -webkit-transition: ease-out 200ms;
+    -moz-transition: ease-out 200ms;
+    -ms-transition: ease-out 200ms;
+    -o-transition: ease-out 200ms;
+}
+
+button:hover {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.508));
+}
+
+.decrement {
+    color: rgb(239, 130, 130);
+}
+
+.decrement:hover,
+.decrement:focus {
+    color: rgb(220, 79, 79);
+}
+
+.increment {
+    color: rgb(6, 190, 101);
+}
+
+.increment:hover,
+.increment:focus {
+    color: rgb(9, 158, 49);
+}
